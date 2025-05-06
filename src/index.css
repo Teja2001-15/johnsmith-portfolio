@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-primary: '#6D28D9';
+	--color-accent: '#F472B6';
+	--color-highlight: '#22D3EE';
+}
+
+html {
+	transition: background-color 0.3s ease;
+	scroll-behavior: smooth;
+}
+
+.dark {
+	background-color: #1a202c;
+	color: white;
+}
