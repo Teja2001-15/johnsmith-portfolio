@@ -76,6 +76,8 @@ Open your browser at [http://localhost:3000](http://localhost:3000)
 ```
 src/
   components/       # Navbar, ThemeToggle, Sections...
+  context/          # Theme Context
+  data/             # Sample Data
   assets/           # Images, Resume PDF
   App.jsx           # Main app component
   main.jsx          # ReactDOM entry
