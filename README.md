@@ -53,6 +53,33 @@ npm run build
 
 ---
 
+## Local Deployment
+
+### Steps
+
+- Download [Nginx Server](https://nginx.org/en/download.html)
+- Extract the zip file to `C:\`
+- Build the react project `npm run build`
+- Copy the `dist` folder into `nginx-<version>\html\portfolio` folder in the server
+- Edit the `nginx-<version>\conf\nginx.conf` file
+
+```
+  http {
+    # other configurations
+    server {
+      location / {
+            root   html/portfolio/dist;
+            index  index.html index.htm;
+        }
+    }
+  }
+```
+
+- Start `nginx-<version>.exe`
+- Browse to `http://localhost` and verify the app is deployed
+
+---
+
 ## 🐳 Docker Setup
 
 ### Build Docker Image
