@@ -21,7 +21,7 @@ function App() {
 			<header className='bg-white dark:bg-gray-900 fixed w-full z-10 top-0 left-0 px-4 py-4'>
 				<div className='flex justify-between items-center max-w-6xl mx-auto'>
 					<h1 className='text-2xl font-bold text-gray-900 dark:text-white'>
-						John Smith
+						John H Smith
 					</h1>
 					<button
 						onClick={toggleTheme}

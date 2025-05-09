@@ -100,9 +100,25 @@ Open your browser at [http://localhost:3000](http://localhost:3000)
 
 ## Cloud Deployment
 
-### Creating CodePipeline using AWS CodePipeline wizard
+### 🚀 AWS DevOps Toolchain Summary
 
-### Creating Custom Pipeline using `builddpec.yaml`
+A quick overview of key AWS tools used in a CI/CD pipeline:
+
+| Tool | Purpose | Key Features |
+| --- | --- | --- |
+| **CodeCommit** | Fully managed Git-based source control | Secure and scalable, IAM integration, Git hooks |
+| **CodeArtifact** | Managed artifact repository for software packages (npm, Maven, etc.) | Supports multiple formats, dependency sharing, and access control |
+| **CodeBuild** | Builds, tests, and packages source code | On-demand scaling, Docker support, environment variables |
+| **CodeDeploy** | Automates deployments to EC2, Lambda, and on-prem servers | Blue/green deployments, canary updates, lifecycle hooks |
+| **CodePipeline** | Orchestrates the entire CI/CD workflow | Integrates with CodeCommit, CodeBuild, CodeDeploy, and third-party tools |
+
+### 🔄 Typical Workflow
+
+- **CodeCommit** stores your source code.
+- **CodeBuild** compiles and builds artifacts.
+- **CodeArtifact** (optional) manages shared packages and dependencies.
+- **CodeDeploy** deploys your app to various targets.
+- **CodePipeline** connects and automates the end-to-end workflow.
 
 ---
 
