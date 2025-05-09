@@ -98,6 +98,14 @@ Open your browser at [http://localhost:3000](http://localhost:3000)
 
 ---
 
+## Cloud Deployment
+
+### Creating CodePipeline using AWS CodePipeline wizard
+
+### Creating Custom Pipeline using `builddpec.yaml`
+
+---
+
 ## 📁 Project Structure
 
 ```
